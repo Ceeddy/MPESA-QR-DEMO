@@ -1,0 +1,16 @@
+{
+  "name": "mpesa-qr-demo-root",
+  "private": true,
+  "scripts": {
+    "demo": "concurrently \"npm start --prefix backend\" \"npx serve frontend -l 5000 --open\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2"
+  }
+}
